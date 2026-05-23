@@ -2,12 +2,14 @@
 description: >-
   SolProbe is the risk-intelligence layer for Solana tokens — an A–F safety
   grade, live market signal, and adversarial deep-dive that any agent can call
-  per-request via x402. No API key, no account, no subscription.
+  per-request via x402. No API key, no account, no
 ---
 
 # Introduction
 
-**SolProbe is a pay-per-call Solana token risk scanner built for AI agents.** Point it at any SPL mint and get back structured JSON: a deterministic A–F structural-safety grade, a live BULLISH/BEARISH/NEUTRAL market signal, or a full adversarial deep-dive with a BUY/AVOID/WATCH/DYOR recommendation. Pay per call in USDC over [x402](access-paths/x402.md) — no key, no account, no signup.
+**SolProbe is a pay-per-call Solana token risk scanner built for AI agents.**&#x20;
+
+Point it at any SPL mint and get back structured JSON: a deterministic A–F structural-safety grade, a live BULLISH/BEARISH/NEUTRAL market signal, or a full adversarial deep-dive with a BUY/AVOID/WATCH/DYOR recommendation. Pay per call in USDC over [x402](access-paths/x402.md) — no key, no account, no signup.
 
 Think of SolProbe as the **pre-trade gate** in any Solana workflow: scan first, then size and execute.
 
@@ -21,10 +23,10 @@ Autonomous agents are starting to move real money on-chain — but they trade bl
 
 **To be the structural-safety and risk layer for Solana** — giving any agent, app, or person an honest, verifiable verdict on any SPL token, available the moment they need it:
 
-- **Honest** — deterministic structural facts (authorities, holder concentration, LP burn) are computed from live on-chain data, never hallucinated. The A–F grade is reproducible.
-- **Instant** — sub-5-second structural scans, sub-30-second deep-dives, with hard SLAs.
-- **Frictionless** — per-call USDC via x402 on Base or Solana. No keys, no accounts, no minimums. An agent with a funded wallet can call SolProbe in one line.
-- **Everywhere agents are** — reachable as a direct HTTP endpoint, an [OpenClaw skill](access-paths/openclaw-skill.md), a [Virtuals ACP](access-paths/virtuals-acp.md) service, or a [browser](access-paths/browser.md) tool, all at price parity.
+* **Honest** — deterministic structural facts (authorities, holder concentration, LP burn) are computed from live on-chain data, never hallucinated. The A–F grade is reproducible.
+* **Instant** — sub-5-second structural scans, sub-30-second deep-dives, with hard SLAs.
+* **Frictionless** — per-call USDC via x402 on Base or Solana. No keys, no accounts, no minimums. An agent with a funded wallet can call SolProbe in one line.
+* **Everywhere agents are** — reachable as a direct HTTP endpoint, an [OpenClaw skill](access-paths/openclaw-skill.md), a [Virtuals ACP](access-paths/virtuals-acp.md) service, or a [browser](access-paths/browser.md) tool, all at price parity.
 
 ## Who is it for?
 
@@ -48,12 +50,12 @@ Not an agent? Use the [browser](access-paths/browser.md) on `solprobe.xyz` — c
 
 ## What you get
 
-| Service | Price | Returns |
-|---|---|---|
-| **Quick Scan** | $0.02 | A–F structural-safety grade — authorities, holder concentration, LP status |
-| **Market Intel** | $0.20 | BULLISH/BEARISH/NEUTRAL signal + buy/sell pressure, volume, volatility |
-| **Deep Dive** | $0.50 | Adversarial report — wallet clustering, wash trading, dev history + recommendation |
+| Service          | Price | Returns                                                                            |
+| ---------------- | ----- | ---------------------------------------------------------------------------------- |
+| **Quick Scan**   | $0.02 | A–F structural-safety grade — authorities, holder concentration, LP status         |
+| **Market Intel** | $0.20 | BULLISH/BEARISH/NEUTRAL signal + buy/sell pressure, volume, volatility             |
+| **Deep Dive**    | $0.50 | Adversarial report — wallet clustering, wash trading, dev history + recommendation |
 
 {% hint style="info" %}
-New here? Start with [**Getting started**](getting-started.md) to fund a wallet and make your first call, or jump to [**Access paths**](access-paths/README.md) to pick the integration that fits you.
+New here? Start with [**Getting started**](getting-started.md) to fund a wallet and make your first call, or jump to [**Access paths**](access-paths/) to pick the integration that fits you.
 {% endhint %}
