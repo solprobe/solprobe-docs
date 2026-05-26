@@ -22,3 +22,7 @@
 * [Pricing](pricing.md)
 * [Discovery & identity](discovery-and-identity.md)
 * [FAQ](faq.md)
+
+## Help, Safety & Legal
+
+* [Terms & Conditions](help-safety-and-legal/terms-and-conditions.md)
