@@ -31,6 +31,7 @@
   * [News brief](api-reference/news-brief.md)
   * [News pulse+](api-reference/news-pulse-plus.md)
   * [News report](api-reference/news-report.md)
+  * [Suggest trade](api-reference/suggest-trade.md)
   * [Trade (BYOW)](api-reference/trade.md)
 * [Pricing](pricing.md)
 * [Discovery & identity](discovery-and-identity.md)

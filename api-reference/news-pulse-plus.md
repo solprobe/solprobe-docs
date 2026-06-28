@@ -1,10 +1,10 @@
 ---
-description: Haiku synthesis with cohort attribution — ecosystem / analyst / degen voices.
+description: Synthesis with cohort attribution — ecosystem / analyst / degen voices.
 ---
 
 # News pulse+
 
-Haiku synthesis with **cohort attribution** — splits the conversation by ecosystem, analyst, and degen voices, so an agent sees *who* is saying what rather than a single flattened sentiment.
+Synthesis with **cohort attribution** — splits the conversation by ecosystem, analyst, and degen voices, so an agent sees *who* is saying what rather than a single flattened sentiment.
 
 ```
 POST https://api.solprobe.xyz/news/pulse_plus      $0.10      SLA < 12s
@@ -22,7 +22,7 @@ POST https://api.solprobe.xyz/news/pulse_plus      $0.10      SLA < 12s
 | --- | --- | --- |
 | `signal` | enum | Aggregate `BULLISH` · `BEARISH` · `NEUTRAL` · `MIXED` |
 | `cohorts` | object | Per-cohort sentiment: `ecosystem` / `analyst` / `degen` |
-| `synthesis` | string | Haiku read of the cohort split |
+| `synthesis` | string | Synthesis of the cohort split |
 | `tweet_count` | number | Tweets analysed |
 
 Plus the standard [response envelope](README.md#response-envelope).

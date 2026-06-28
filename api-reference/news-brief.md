@@ -1,10 +1,10 @@
 ---
-description: Haiku-synthesized news brief paired with the Quick Scan structural snapshot.
+description: Synthesized news brief paired with the Quick Scan structural snapshot.
 ---
 
 # News brief
 
-An LLM read of the Twitter stream for a Solana token, paired with the structural [Quick scan](quick-scan.md) snapshot — so the narrative is grounded against on-chain reality, not floating free.
+A synthesized read of the Twitter stream for a Solana token, paired with the structural [Quick scan](quick-scan.md) snapshot — so the narrative is grounded against on-chain reality, not floating free.
 
 ```
 POST https://api.solprobe.xyz/news/brief      $0.05      SLA < 10s
@@ -21,7 +21,7 @@ POST https://api.solprobe.xyz/news/brief      $0.05      SLA < 10s
 | Field | Type | Description |
 | --- | --- | --- |
 | `signal` | enum | `BULLISH` · `BEARISH` · `NEUTRAL` · `MIXED` |
-| `brief` | string | Haiku-synthesized narrative of the stream |
+| `brief` | string | Synthesized narrative of the stream |
 | `structural` | object | Quick Scan snapshot (grade, authorities, LP burn, top-10 %) |
 | `tweet_count` | number | Tweets analysed |
 

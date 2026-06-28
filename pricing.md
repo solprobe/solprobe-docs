@@ -24,6 +24,7 @@ SolProbe is **pay-per-call** in USDC. No subscription, no minimums, no monthly f
 | News brief | **$0.05** | `POST /news/brief` |
 | News pulse+ | **$0.10** | `POST /news/pulse_plus` |
 | News report | **$0.25** | `POST /news/report` |
+| Suggest trade | **$0.60** | `POST /trade/suggest` |
 | Trade quote | **Free** | `POST /trade/quote` |
 | Trade execute | **$0.15** | `POST /trade/execute` (charged on commit only) |
 

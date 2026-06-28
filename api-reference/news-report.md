@@ -1,10 +1,10 @@
 ---
-description: Sonnet-grade structured news report — takes, synthesis, risks, and a filtered watch list.
+description: In-depth structured news report — takes, synthesis, risks, and a filtered watch list.
 ---
 
 # News report
 
-The deepest read on a Solana token's news flow — a Sonnet-grade structured report with key takes, a synthesized narrative, explicit risks, and a watch list (with invented-token filtering so hallucinated tickers don't leak through).
+The deepest read on a Solana token's news flow — an in-depth structured report with key takes, a synthesized narrative, explicit risks, and a watch list (with invented-token filtering so hallucinated tickers don't leak through).
 
 ```
 POST https://api.solprobe.xyz/news/report      $0.25      SLA < 25s
