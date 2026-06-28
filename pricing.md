@@ -17,6 +17,9 @@ SolProbe is **pay-per-call** in USDC. No subscription, no minimums, no monthly f
 | Launch radar | **$0.05** | `POST /launch/radar` |
 | Graduation radar | **$0.06** | `POST /graduation/radar` |
 | Graduation momentum | **$0.40** | `POST /graduation/momentum` |
+| Exit check | **$0.01** | `POST /exit/check` |
+| Cross-chain exit check | **$0.01** | `POST /exit/cross-check` |
+| Wallet intel | **$0.10** | `POST /wallet/intel` |
 | Trade quote | **Free** | `POST /trade/quote` |
 | Trade execute | **$0.15** | `POST /trade/execute` (charged on commit only) |
 
