@@ -11,6 +11,12 @@ SolProbe is **pay-per-call** in USDC. No subscription, no minimums, no monthly f
 | Quick scan | **$0.02** | `POST /scan/quick` |
 | Market intel | **$0.20** | `POST /market/intel` |
 | Deep dive | **$0.50** | `POST /scan/deep` |
+| Trending | **$0.02** | `POST /scan/trending` |
+| Smart money | **$0.05** | `POST /scan/smart-money` |
+| Signal radar | **$0.04** | `POST /signal/radar` |
+| Launch radar | **$0.05** | `POST /launch/radar` |
+| Graduation radar | **$0.06** | `POST /graduation/radar` |
+| Graduation momentum | **$0.40** | `POST /graduation/momentum` |
 | Trade quote | **Free** | `POST /trade/quote` |
 | Trade execute | **$0.15** | `POST /trade/execute` (charged on commit only) |
 
