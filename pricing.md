@@ -20,6 +20,10 @@ SolProbe is **pay-per-call** in USDC. No subscription, no minimums, no monthly f
 | Exit check | **$0.01** | `POST /exit/check` |
 | Cross-chain exit check | **$0.01** | `POST /exit/cross-check` |
 | Wallet intel | **$0.10** | `POST /wallet/intel` |
+| News pulse | **$0.01** | `POST /news/pulse` |
+| News brief | **$0.05** | `POST /news/brief` |
+| News pulse+ | **$0.10** | `POST /news/pulse_plus` |
+| News report | **$0.25** | `POST /news/report` |
 | Trade quote | **Free** | `POST /trade/quote` |
 | Trade execute | **$0.15** | `POST /trade/execute` (charged on commit only) |
 
